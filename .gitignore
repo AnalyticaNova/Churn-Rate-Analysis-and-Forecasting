@@ -1,0 +1,32 @@
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache and virtual environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Ignore Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ignore dataset files (optional: if data shouldn't be pushed)
+data/*.zip
+data/*.csv
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tmp
+
+# Ignore credentials
+config.py
+
+# Ignore Extract Files 
+.hyper
+.tds
