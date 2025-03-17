@@ -1,10 +1,21 @@
-# Customer Churn Analysis and Forecasting using Python, SQL, and Tableau
+# Customer Churn Analysis, Forecasting and Visualization using Python, SQL, and Tableau
+
+Profit is the primary motivator for any business, and one effective way to maximize profits is by focusing on customer retention. Retaining existing customers should be a key priority for businesses, as a [Forbes study](https://www.forbes.com/councils/forbesbusinesscouncil/2022/12/12/customer-retention-versus-customer-acquisition/) shows that acquiring a new customer can cost 5 to 7 times more than retaining an existing one.
+
+What is Customer Churn?
+Customer churn refers to the phenomenon where customers or subscribers stop engaging with a company or service, also known as customer attrition. It is commonly referred to as the loss of clients or customers.
+
+Customer churn analysis helps businesses understand why customers leave by identifying key patterns and risk factors. By analyzing factors like contract length, customer service interactions, and monthly charges, companies can pinpoint dissatisfaction drivers and take proactive measures to improve customer experience. This insight enables businesses to refine their pricing models, enhance customer support, and introduce loyalty programs to retain valuable customers.
+
+Customer churn prediction takes this a step further by using machine learning models to forecast which customers are most likely to leave. By leveraging historical data, predictive models can identify at-risk customers in real time, allowing businesses to intervene with targeted retention strategies, such as personalized offers or improved service plans. This approach helps reduce revenue loss and improves long-term customer satisfaction.
 
 This project analyzes customer churn data and provides insights using **SQL**, **Python**, and **Tableau**. It also includes a **forecasting module** to predict future churn trends.
+
 
 ## 📊 Data
 
 The dataset used in this project is a **telecom customer churn dataset** called **Databel**. This dataset is publicly available on [Kaggle](https://www.kaggle.com/datasets/yichienchong/databel-telecom-customer-churn-dataset). It features detailed customer information and churn data from a telecom company, providing valuable insights for analyzing and forecasting customer retention trends.
+
 
 ## 📌 Prerequisites
 
@@ -15,6 +26,7 @@ Ensure you have the following installed:
 - PostgreSQL
 - Kaggle API
 - Tableau (to open and analyze `.twb` and `.twbx` files)
+
 
 ## 📥 Installing Dependencies
 
@@ -68,6 +80,7 @@ DB_PASSWORD = "your_password"
 KAGGLE_API_KEY = "your_kaggle_api_key"
 ```
 
+
 ## 🔧 Step 1: Setting Up the Database
 
 Open `notebooks/Data_Cleaning_and_Preparation.ipynb` and run all the cells to:
@@ -75,6 +88,7 @@ Open `notebooks/Data_Cleaning_and_Preparation.ipynb` and run all the cells to:
 - Preprocess the data.
 - Create the PostgreSQL database.
 - Load the preprocessed data into the database.
+
 
 ## ⚙️ Step 2: Running the Notebooks 
 
@@ -114,13 +128,15 @@ This notebook will:
    - After preprocessing, the data is fed into a *CatBoost model*, where we analyze feature importance and assess classification results.
    - This provides a robust understanding of churn patterns and future predictions. 📈💡 
 
+
 ## 📊 Step 3: Opening Tableau Workbooks
 
 To view and analyze the data in Tableau:
 
 1. Open **Tableau Desktop/Public**.
 2. Navigate to the `tableau/` folder in the project directory.
-3. Open the `.twbx` file to explore the dashboards.
+3. Open the `.twb` or `.twbx` file to explore the dashboards.
+
 
 ## 💡 Step 4: Key Insights and Business Actions
 
@@ -137,3 +153,9 @@ To view and analyze the data in Tableau:
 - Promote Digital Payments: Incentivize Credit Card usage to reduce churn risk.
 - Personalize Retention Strategies: Identify high-risk customers based on service calls, contract type, and payment method, and offer targeted interventions.
 - Monitor Competitor Offerings & Price Sensitivity: Adjust pricing and service features to remain competitive.
+
+
+### 📩 Connect With Me
+If you're interested in discussing this project or opportunities, feel free to connect! 🚀
+
+💼 LinkedIn: [https://www.linkedin.com/in/nedaetebari/]
