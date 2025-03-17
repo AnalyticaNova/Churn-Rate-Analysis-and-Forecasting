@@ -149,9 +149,13 @@ To view and analyze the data in Tableau:
 **Strategic Business Actions:**
 
 - Improve Customer Support Quality: Train staff, monitor sentiment, and offer proactive escalations.
+  
 - Encourage Longer-Term Contracts: Offer discounts and rewards for One-Year and Two-Year plans.
+
 - Promote Digital Payments: Incentivize Credit Card usage to reduce churn risk.
+
 - Personalize Retention Strategies: Identify high-risk customers based on service calls, contract type, and payment method, and offer targeted interventions.
+
 - Monitor Competitor Offerings & Price Sensitivity: Adjust pricing and service features to remain competitive.
 
 
